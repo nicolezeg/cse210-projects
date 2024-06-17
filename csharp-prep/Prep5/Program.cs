@@ -46,6 +46,6 @@ class Program
 
     static void DisplayResult(string myName, int square)
     {
-        Console.WriteLine($"Brother {myName}, the square of your number is {square}");
+        Console.WriteLine($"Sister {myName}, the square of your number is {square}");
     }
 }
