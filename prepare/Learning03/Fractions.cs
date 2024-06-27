@@ -29,7 +29,7 @@ public class Fraction
         return text;
     }
 
-    public string GetDecimalValue()
+    public double GetDecimalValue()
     {
         return (double)_top / (double)_bottom;
     }
