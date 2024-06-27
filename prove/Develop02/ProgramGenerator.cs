@@ -15,6 +15,9 @@ public class PromptGenerator
             "If I had one thing I could do over today, what would it be?",
             "What am I looking forward to tomorrow?",
             "What did I learn today?",
+            "What am I grateful for today?",
+            "What would I do differently if I could relive today?",
+            "What was the most challenging part of my day?"
         };
     }
 
