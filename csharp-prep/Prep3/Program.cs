@@ -31,7 +31,7 @@ class Program
                 else
                 {
                     Console.WriteLine("You guessed it!");
-                    Console.Write("Do you want to continue? ");
+                    Console.Write("Do you want to continue?");
                     response = Console.ReadLine();
                 }
             }
