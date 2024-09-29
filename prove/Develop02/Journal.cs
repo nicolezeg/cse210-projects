@@ -28,7 +28,7 @@ public class Journal
         {
             foreach (var entry in _entries)
             {
-                writer.WriteLine($"{entry._date},{entry._promptText},{entry._entryText}");
+                writer.WriteLine($"{entry._dates},{entry._promptText},{entry._entryText}");
             }
         }
     }
@@ -44,7 +44,7 @@ public class Journal
                 var parts = line.Split(',');
                 _entries.Add(new Entry
                 {
-                    _date = parts[0],
+                    _dates = parts[0],
                     _promptText = parts[1],
                     _entryText = parts[2]
                 });
