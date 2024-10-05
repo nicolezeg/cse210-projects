@@ -8,7 +8,7 @@ public class Fraction
     public Fraction()
     {
         _top = 1;
-        _bottom = 1;
+        _bottom = 2;
     }
 
     public Fraction(int wholenumber) 
